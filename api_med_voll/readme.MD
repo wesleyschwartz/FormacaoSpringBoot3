@@ -23,4 +23,6 @@
     * Saber quais scripts SQL foram executados ou não;
     * Automatizar a execução dos scripts;
     * Criar um banco de dados do zero;
-    * Permite criar um rollback de mudanças no banco de dados (útil em casos rar
+    * Permite criar um rollback de mudanças no banco de dados
+
+## [Certicado Curso 1](https://cursos.alura.com.br/certificate/wesleyschwartz/spring-boot-3-desenvolva-api-rest-java)
