@@ -38,3 +38,6 @@ Sobre este repósitorio:
 ***
 
 ## [Spring Boot 3: aplique boas práticas e proteja uma API Rest](https://cursos.alura.com.br/course/spring-boot-aplique-boas-praticas-proteja-api-rest)
+
+* Documentação de properties do
+  spring [aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html)

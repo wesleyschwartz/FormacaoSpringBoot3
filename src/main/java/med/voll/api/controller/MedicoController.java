@@ -1,7 +1,7 @@
 package med.voll.api.controller;
 
 import jakarta.validation.Valid;
-import med.voll.api.medico.*;
+import med.voll.api.domain.medico.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -10,8 +10,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-
-import java.util.Optional;
 
 @RestController
 @RequestMapping("medicos")
@@ -35,7 +33,7 @@ public class MedicoController {
     }
 
     @GetMapping("/{id}")
-    ResponseEntity<DadosDetalhementoMedico> listar(@PathVariable Long id) {
+    ResponseEntity<DadosDetalhementoMedico> deatalhar(@PathVariable Long id) {
         var medico = medicoRepository.getReferenceById(id);
         var dadosDetalhementoMedico = new DadosDetalhementoMedico(medico);
         return ResponseEntity.ok(dadosDetalhementoMedico);
