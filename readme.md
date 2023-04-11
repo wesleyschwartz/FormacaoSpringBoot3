@@ -41,3 +41,14 @@ Sobre este repósitorio:
 
 * Documentação de properties do
   spring [aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html)
+* Spring Security:
+    * é um módulo dedicado para tratarmos das questões relacionadas com segurança em aplicações.
+    * Principais objetivos: autenticação e autorização de usuários, a proteção contra-ataques, a integração com outros
+      frameworks e a
+      personalização da lógica de segurança. Ele fornece diferentes mecanismos de autenticação e autorização, além
+      de recursos de proteção contra diversos tipos de ataques.
+* Stateless vs Statefull
+    * Stateless é um sistema sem estado não mantém informações sobre interações anteriores, são usados em serviços web
+      simples, como rest API
+    * Statefull é um sistema que mantém informações sobre essas interações, são usados em aplicativos mais complexos,
+      como comércio eletrônico ou sistemas bancários.
