@@ -52,3 +52,10 @@ Sobre este repósitorio:
       simples, como rest API
     * Statefull é um sistema que mantém informações sobre essas interações, são usados em aplicativos mais complexos,
       como comércio eletrônico ou sistemas bancários.
+* JSON Web Token, [JWT](https://jwt.io/), é um meio compacto e seguro de representar declarações a serem transferidas
+  entre duas partes
+* Filters é um dos recursos que fazem parte da especificação de Servlets, a qual padroniza o tratamento de
+  requisições e respostas em aplicações Web no Java.
+
+## [Certificado](https://cursos.alura.com.br/certificate/wesleyschwartz/spring-boot-aplique-boas-praticas-proteja-api-rest)
+  
