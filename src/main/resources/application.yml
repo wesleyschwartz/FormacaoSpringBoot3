@@ -8,3 +8,11 @@ spring:
     properties:
       hibernate:
         format_sql: true
+server:
+  error:
+    include-stacktrace: never
+api:
+  security:
+    token:
+      secret: ${JWT_SECRET:123456789}
+
