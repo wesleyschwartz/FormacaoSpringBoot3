@@ -6,7 +6,7 @@ Sobre este repósitorio:
 
 ***
 
-## [Spring Boot 3: desenvolva uma API Rest em Java](https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java)
+# [Spring Boot 3: desenvolva uma API Rest em Java](https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java)
 
 * Projeto de uma clínica médica fictícia. Onde uma empresa chamada Voll Med, possui uma clínica que precisa de um
   aplicativo para monitorar o cadastro de médicos, pacientes e agendamento de consultas.
@@ -37,7 +37,7 @@ Sobre este repósitorio:
 
 ***
 
-## [Spring Boot 3: aplique boas práticas e proteja uma API Rest](https://cursos.alura.com.br/course/spring-boot-aplique-boas-praticas-proteja-api-rest)
+# [Spring Boot 3: aplique boas práticas e proteja uma API Rest](https://cursos.alura.com.br/course/spring-boot-aplique-boas-praticas-proteja-api-rest)
 
 * Documentação de properties do
   spring [aqui](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html)
@@ -58,4 +58,12 @@ Sobre este repósitorio:
   requisições e respostas em aplicações Web no Java.
 
 ## [Certificado](https://cursos.alura.com.br/certificate/wesleyschwartz/spring-boot-aplique-boas-praticas-proteja-api-rest)
-  
+
+# [Spring Boot 3: documente, teste e prepare uma API para o deploy](https://cursos.alura.com.br/course/spring-boot-3-documente-teste-prepare-api-deploy)
+
+* @JsonAlias
+    * é uma anotação da biblioteca Jackson para mapear diferentes nomes de propriedades JSON para um único nome de
+      propriedade Java.
+    * Exemplo tenham uma propriedade "first_name" em uma fonte e uma propriedade "firstName" em outra fonte.
+        * @JsonAlias({"first_name", "firstName"})
+          private String nome;
