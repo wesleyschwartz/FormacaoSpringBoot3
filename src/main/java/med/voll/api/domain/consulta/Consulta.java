@@ -14,7 +14,6 @@ import java.time.LocalDateTime;
 @Entity(name = "Consulta")
 @Getter
 @NoArgsConstructor
-@AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Consulta {
     @Id
@@ -24,7 +23,20 @@ public class Consulta {
     @JoinColumn(name = "medico_id")
     private Medico medico;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "pacient_id")
+    @JoinColumn(name = "paciente_id")
     private Paciente paciente;
     private LocalDateTime data;
+
+    @Column(name = "motivo_cancelamento")
+    private String motivoCancelamento;
+
+    public Consulta(Long id, Medico medico, Paciente paciente, LocalDateTime data) {
+        this.medico = medico;
+        this.paciente = paciente;
+        this.data = data;
+    }
+
+    public void cancelar(String motivo) {
+        this.motivoCancelamento = motivo;
+    }
 }
