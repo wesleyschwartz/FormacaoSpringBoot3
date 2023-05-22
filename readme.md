@@ -67,3 +67,6 @@ Sobre este repósitorio:
     * Exemplo tenham uma propriedade "first_name" em uma fonte e uma propriedade "firstName" em outra fonte.
         * @JsonAlias({"first_name", "firstName"})
           private String nome;
+* [Spring doc](https://springdoc.org/v2/)
+  * http://localhost:8080/swagger-ui.html
+  * http://localhost:8080/v3/api-docs
